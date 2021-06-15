@@ -21,3 +21,10 @@ for d in data:
 print('一共有', len(search),'筆留言長度小於100')
 print(search[0])
 print(search[1])
+
+good = []
+for d in data:
+	if 'good' in d:
+		good.append(d)
+print('一共有', len(good), '筆留言提到good文字')
+print(good[0])
